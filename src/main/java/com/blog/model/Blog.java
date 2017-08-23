@@ -30,7 +30,7 @@ public class Blog implements Serializable {
     private String releaseDateStr; // 发布日期字符串 只取年和月
     private String keyWord; // 关键字 空格隔开
 
-    private List<String> imagesList = new LinkedList<String>(); // 博客里存在的图片 主要用于列表展示显示缩略图
+    private List<String> imagesList = new LinkedList<>(); // 博客里存在的图片 主要用于列表展示显示缩略图
 
 
     /**==============================================================================================**/

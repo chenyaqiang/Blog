@@ -12,7 +12,7 @@ import java.util.Map;
  * @see:
  * @since:
  */
-public interface CommonService {
+public interface CommentService {
 
     /**
      * 添加评论
